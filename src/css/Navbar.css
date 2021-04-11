@@ -1,0 +1,109 @@
+ /* navbar background color */
+.navBG {
+    margin: 0 0 0 0 !important;
+    padding: 1% 0 0 0 !important;
+    background-color: #282828;
+    transition: all 1s ease-in-out; 
+} 
+.navbar {
+    z-index: 1 !important;
+}
+.navBarTittle {
+    color: white !important;
+    text-decoration: none;
+    cursor: pointer; 
+}
+.nav-link h5{
+    color: white !important;
+    text-decoration: none;
+    cursor: pointer;
+} 
+.nav-link h5:hover { 
+    color: #198754 !important;
+    text-decoration: none;  
+    transition: all 0.5s ease-in-out;  
+}
+.nav-link h5 .active.active {
+    color: #198754 !important; 
+    text-decoration: none; 
+    border-bottom: 2px solid #198754;
+}  
+.navbar-toggler:hover {
+    background: #282828;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    outline: none; 
+} 
+.navTogglerOpen {
+    font-size: 27px;
+}  
+.navTogglerClose {
+    font-size: 27px;
+}
+.navTogglerOpen:active {
+    transform: translateX(10px);
+    background: transparent;
+    box-shadow: none; 
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    border: none;
+}  
+.navTogglerOpen:focus { 
+    outline: none;
+    border: none;
+}  
+.navTogglerClose:active {
+    transform: translateX(-10px);
+    background: transparent;
+    box-shadow: none; 
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    border: none;
+} 
+.navTogglerClose:focus { 
+    outline: none;
+    border: none;
+}   
+.btn-success {
+    padding: 5px 5px 0 5px !important;
+}
+.btn-success:hover {  
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.btnSignIN {
+    color: white!important;
+    text-decoration: none;
+} 
+/* for mobile */
+@media screen and (min-width: 0px) and (max-width: 500px)   {
+    .navBarTittle {
+        display: none;
+    }
+    .navIcon {
+        font-size: 60px !important;
+        cursor: pointer;
+    }
+    .navbar-brand {  
+        padding: 4% 0 0 3%; 
+    }  
+    .navbar-toggler {
+        margin: 0 2% 0 0;  
+        z-index: 9;
+    } 
+    .navbar-toggler-icon.active {
+        color: red;
+        position: absolute;
+    } 
+    .navbar-collapse {
+        position: absolute;
+        background-color: #282828;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: 40% 0 0 0; 
+    }
+}  

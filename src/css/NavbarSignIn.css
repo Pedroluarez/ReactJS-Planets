@@ -1,0 +1,28 @@
+.navBG {
+    margin: 0 0 0 0 !important;
+    padding: 1% 0 0 0 !important;
+    background-color: #282828; 
+} 
+.navbar a {
+    text-decoration: none !important;
+}  
+.navbar-brand .navTittle {
+    color: white; 
+}
+.navIcon {
+    color: white;
+}
+.btnBackToHome{
+    color: white
+}
+.btnBackToHome:hover { 
+    color: #198754 !important;
+    text-decoration: none;  
+    transition: all 0.5s ease-in-out;  
+}
+/* for mobile */
+@media screen and (min-width: 0px) and (max-width: 500px)   {
+    .navTittle {
+        display: none;
+    }  
+}  

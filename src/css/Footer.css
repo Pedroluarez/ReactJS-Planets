@@ -1,0 +1,43 @@
+body {
+    font-family: 'Recursive', sans-serif;
+}
+.FooterSection {
+    background-color:#111111;
+    width: 100%;
+    height: 15vh;  
+} 
+.footerIcon {
+    color: white;
+    text-decoration: none; 
+    cursor: default;
+    padding: 2% 0 0 0 !important;
+}
+.footerEnder {
+    color: white;
+    text-decoration: none; 
+    padding: 0 3% 0 0!important;
+}
+/* for mobile */
+@media screen and (min-width: 0px) and (max-width: 500px)   {
+    .FooterSection {
+        background-color:#111111; 
+        height: 10vh;  
+    } 
+    .footerIcon { 
+        text-decoration: none; 
+        cursor: default;
+        padding: 2% 0 0 12% !important;
+    }
+    .footerEnder {
+        padding: 0 0 0 0!important;
+    }
+}
+/* for tablet */
+@media screen and (min-width: 501px) and (max-width: 1150px)    {
+    .footerIcon {  
+        padding: 2% 0 0 12% !important;
+    }
+    .footerEnder {
+        padding: 0 0 0 4%!important;
+    }
+}

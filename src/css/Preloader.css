@@ -1,0 +1,19 @@
+.preLoader { 
+    position: relative;
+    z-index: 9; 
+    width: 99vw;
+    height: 100vh; 
+    padding: 20% 0 0 0;
+    background-color: #1e1e1e;   
+} 
+/* for mobile */
+@media screen and (min-width: 0px) and (max-width: 500px)   {
+    .preLoader { 
+        position: relative;
+        z-index: 9; 
+        width: 99vw;
+        height: 100vh; 
+        padding: 50% 0 0 0;
+        background-color: #1e1e1e;   
+    } 
+}

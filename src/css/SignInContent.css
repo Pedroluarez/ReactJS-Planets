@@ -1,0 +1,15 @@
+.logoattrib {
+    color: white;
+    font-size: 150px; 
+    margin: 15% 0 0 0;
+} 
+.loginBtn { 
+    font-size: 20px;
+    padding: 2% 43% 2% 43% !important; 
+}
+/* for mobile */
+@media screen and (min-width: 0px) and (max-width: 500px)   {
+     .logoContent {
+         padding: 10% 0 0 0;
+     }
+}  
